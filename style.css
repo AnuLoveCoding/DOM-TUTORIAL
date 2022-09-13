@@ -17,6 +17,7 @@ a{
 }
 
 .header{
+    position: relative;
     min-height: 100vh;
     background:url('./bgimage.jpg');
     background-position: center;
