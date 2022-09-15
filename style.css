@@ -17,7 +17,7 @@ a{
 
 .header{
     position: relative;
-    min-height: 100vh;
+    min-height: 60vh;
     background:url('./bg-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -45,4 +45,27 @@ a{
     display: flex;
     list-style-type:none ;
     justify-content: space-between;
+}
+
+.headline{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-headline{
+    padding: 1rem,2rem;
+    font-size: 1 rem;
+    margin-top: 1rem;
+    font-weight: 600;
+
 }
