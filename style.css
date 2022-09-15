@@ -100,12 +100,18 @@ a{
     
 }
 .section-signup{
-    margin-top: 5rem;
+    margin: 5rem auto;
+    text-align: center;
+    background: rgb(240,240,240);
+    border-radius: 10px;
+    padding: 1rem;
 }
 
-signup-form{
+.signup-form{
     max-width: 800px;
     width: 95% ;
+    text-align: left;
+    margin: auto;
 }
 
 .signup-form label{
@@ -114,9 +120,26 @@ signup-form{
 
 .signup-form input{
     display: block;
+    width: 100%;
+    padding: 0.5rem;
 }
 
+.form-group{
+    margin: 1rem;
+}
+.signup-form textarea{
+    width: 100%;
+}
 
+.signup-btn{
+  background: rgb(44,55,63);
+  color: white;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: auto;
+  margin-top: 1rem;
+
+}
 
 
 
