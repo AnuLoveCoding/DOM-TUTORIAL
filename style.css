@@ -103,7 +103,18 @@ a{
     margin-top: 5rem;
 }
 
+signup-form{
+    max-width: 800px;
+    width: 95% ;
+}
 
+.signup-form label{
+       display: block;
+}
+
+.signup-form input{
+    display: block;
+}
 
 
 
